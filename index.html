@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Are You Feeling?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="feelings-container">
+        <h1>How Are You Feeling?</h1>
+        <button onclick="showQuotes('happy')">😊 Happy</button>
+        <button onclick="showQuotes('angry')">😡 Angry</button>
+        <button onclick="showQuotes('sad')">😢 Sad</button>
+        <button onclick="showQuotes('unmotivated')">😞 Unmotivated</button>
+        <button onclick="showQuotes('tired')">🥱 Tired</button>
+    </div>
+
+    <div id="quote-container" style="display: none; opacity: 0;">
+        <p id="quote-text"></p>
+        <img id="quote-image" src="" alt="Quote Image">
+        <button onclick="resetPage()">🔙 Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
