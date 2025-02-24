@@ -1,0 +1,42 @@
+body {
+    background-color: #ffd9e6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 2em;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
+
+/* Fix: Smooth transition for quote-container */
+#quote-container {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
