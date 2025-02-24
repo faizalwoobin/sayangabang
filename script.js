@@ -51,7 +51,7 @@ const quotes = {
         { text: "Sayang, you’ve been trying so hard. Rest, my love, and let me take care of you for a while 💖", image: "images/tired1.jpg" },
         { text: "Princess, your body and heart deserve kindness too. Sleep well, and know that I love you endlessly 💖", image: "images/tired2.jpg" },
         { text: "Hunny munchkin, close your eyes and let go of today’s worries. I’ll always be here when you wake up 💖", image: "images/tired3.jpg" },
-        { text: "Baby, you don’t have to do everything at once. Take it easy, and I’ll hold you through it al 💖", image: "images/tired4.jpg" },
+        { text: "Baby, you don’t have to do everything at once. Take it easy, and I’ll hold you through it all 💖", image: "images/tired4.jpg" },
         { text: "Sayang, even the strongest people need to rest. Recharge, my love, and I’ll be here when you’re ready 💖", image: "images/tired1.jpg" },
         { text: "Princess, wrap yourself in warmth and love. You deserve peace, and I’ll always give it to you 💖", image: "images/tired2.jpg" },
         { text: "Hunny munchkin, sleep well knowing that you are deeply loved and cherished, today and always 💖", image: "images/tired3.jpg" },
